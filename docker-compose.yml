@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    # other configuration for your backend service
+
+  frontend:
+    build:
+      context: ./vueapp/vuedjangorest
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "8080:8080"
+    # other configuration for your frontend service

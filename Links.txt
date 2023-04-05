@@ -1,0 +1,29 @@
+Vue app:
+http://localhost:8080/api/table
+http://localhost:8080/api/metrics
+http://127.0.0.1:8080/api/units
+http://127.0.0.1:8080/api/measurements
+
+Endpoints:
+http://127.0.0.1:8000/api/sensors/
+http://127.0.0.1:8000/api/metrics/
+http://127.0.0.1:8000/api/units/
+http://127.0.0.1:8000/api/measurements/
+http://127.0.0.1:8000/api/sensors/<int:sensor_id>/
+
+
+Django:
+requirements.txt
+
+Vue:
+-
+
+
+
+
+Database populate with json files:
+python manage.py shell
+>>> from djangovue.load_data import load_sensor_types, load_metrics, load_sensors
+>>> load_sensor_types()
+>>> load_metrics()
+>>> load_sensors()

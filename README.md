@@ -17,7 +17,7 @@ Once the containers are running, you can access the Vue.js application at the fo
     http://127.0.0.1:8080/api/units
     http://127.0.0.1:8080/api/measurements
 
-The tables can be sorted by clicking/double-clicking on column name
+- The tables can be sorted by clicking/double-clicking on column name
 
 You can also access the following endpoints for the backend API:
 

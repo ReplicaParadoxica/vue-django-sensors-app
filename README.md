@@ -1,6 +1,7 @@
 Sensor Data Web Application
 ==
 This web application uses Vue.js to display data from sensors through a Django backend API. The backend API is delivered through Docker and runs on port 8080.
+
 Installation
 --
 To install and run the application, follow these steps:
